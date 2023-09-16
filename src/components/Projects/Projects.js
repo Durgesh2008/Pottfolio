@@ -2,19 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Note from "../../Assets/Projects/notebook.jpg";
 import Sorting from "../../Assets/Projects/sorting.png";
 import Admin from "../../Assets/Projects/Admin.png";
 import chat from '../../Assets/Projects/chat.jpg'
 import News from '../../Assets/Projects/newsmonkey.jpg'
-
+import WordKhoj from '../../Assets/Projects/textutils.png'
 const ProjectData = [
   {
     id: 'a1',
-    imgPath: Note,
-    title: "Inotebook",
-    description: "This is a Full Stack Chatting App. Uses Socket.io for real-time communication and stores user details in encrypted format in MongoDB Database.",
-    ghLink: "https://github.com/Durgesh2008/Inotebook"
+    imgPath: WordKhoj,
+    title: "WordKhoj & Textutils",
+    description: "WordKhoj & Textutils is a React app designed for language-related tasks. It offers word meaning lookup and text manipulation features, including text reversal, character counting, and word counting. It provides a user-friendly interface and responsive design for an efficient user experience.",
+    ghLink: "https://github.com/Durgesh2008/WordKhoj",
+    demoLink: "https://wordkhoj.netlify.app/"
   },
   {
     id: 'a2',
@@ -55,7 +55,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My  <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.

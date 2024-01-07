@@ -12,8 +12,8 @@ function AboutCard() {
             from <span className="purple"> Uttar Pradesh, India.</span>
             <br />I completed my graduation in Information Technology from 2019 to 2023.
             <br />
-            Additionally, I am currently employed as a frontend Intern  at
-            Shoppeal Tech Pvt. Ltd. (OPC).
+            Additionally, I done my internship from
+            Shoppeal Tech Pvt. Ltd. (OPC).Currently I am working Codeapex LLP as a Software Developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

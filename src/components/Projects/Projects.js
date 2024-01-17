@@ -37,7 +37,7 @@ const ProjectData = [
     title: "ChatUp",
     description: "This is a Full Stack Chatting App. Uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database.",
     ghLink: "https://github.com/Durgesh2008/chatapp",
-    demoLink: "https://64ac5325a494d72192eae551--aesthetic-narwhal-18dd71.netlify.app/",
+    demoLink: "https://chatapp-qfk3.onrender.com/",
   },
   {
     id: 'a5',

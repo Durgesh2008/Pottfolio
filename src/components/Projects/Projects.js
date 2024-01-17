@@ -9,12 +9,20 @@ import News from '../../Assets/Projects/newsmonkey.jpg'
 import WordKhoj from '../../Assets/Projects/textutils.png'
 const ProjectData = [
   {
-    id: 'a1',
-    imgPath: WordKhoj,
-    title: "WordKhoj & Textutils",
-    description: "WordKhoj & Textutils is a React app designed for language-related tasks. It offers word meaning lookup and text manipulation features, including text reversal, character counting, and word counting. It provides a user-friendly interface and responsive design for an efficient user experience.",
-    ghLink: "https://github.com/Durgesh2008/WordKhoj",
-    demoLink: "https://wordkhoj.netlify.app/"
+    id: "a4",
+    imgPath: chat,
+    title: "ChatUp",
+    description: "This is a Full Stack Chatting App. Uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database.",
+    ghLink: "https://github.com/Durgesh2008/chatapp",
+    demoLink: "https://chatapp-qfk3.onrender.com/",
+  },
+  
+  {
+    id: "a3",
+    imgPath: Admin,
+    title: "Admin Student Record Portal",
+    description: "This project entails creating an administrator portal for efficient student record management and certificate generation. Administrators can login, sign up, and perform essential tasks like adding, deleting, viewing, and updating student data, as well as generating student certificates. This system simplifies administrative processes and enhances student  management.",
+    ghLink: "https://github.com/Durgesh2008/AdminOfStudent"
   },
   {
     id: 'a2',
@@ -24,21 +32,8 @@ const ProjectData = [
     ghLink: "https://github.com/Durgesh2008/sortingVisulizer",
     demoLink: "https://sortingvisulizer.netlify.app/"
   },
-  {
-    id: "a3",
-    imgPath: Admin,
-    title: "Admin Student Record Portal",
-    description: "This project entails creating an administrator portal for efficient student record management and certificate generation. Administrators can login, sign up, and perform essential tasks like adding, deleting, viewing, and updating student data, as well as generating student certificates. This system simplifies administrative processes and enhances student  management.",
-    ghLink: "https://github.com/Durgesh2008/AdminOfStudent"
-  },
-  {
-    id: "a4",
-    imgPath: chat,
-    title: "ChatUp",
-    description: "This is a Full Stack Chatting App. Uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database.",
-    ghLink: "https://github.com/Durgesh2008/chatapp",
-    demoLink: "https://chatapp-qfk3.onrender.com/",
-  },
+ 
+  
   {
     id: 'a5',
     imgPath: News,
@@ -46,6 +41,14 @@ const ProjectData = [
     description: "This React app utilizes the News API to gather and present real-time news content. Offering an immersive news-reading experience, it provides users with up-to-date information and headlines from various sources, making it a convenient and informative news application.",
     ghLink: "https://github.com/Durgesh2008/NewsMonkey",
 
+  },
+  {
+    id: 'a1',
+    imgPath: WordKhoj,
+    title: "WordKhoj & Textutils",
+    description: "WordKhoj & Textutils is a React app designed for language-related tasks. It offers word meaning lookup and text manipulation features, including text reversal, character counting, and word counting. It provides a user-friendly interface and responsive design for an efficient user experience.",
+    ghLink: "https://github.com/Durgesh2008/WordKhoj",
+    demoLink: "https://wordkhoj.netlify.app/"
   },
 
 ]

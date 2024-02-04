@@ -7,9 +7,18 @@ import Admin from "../../Assets/Projects/Admin.png";
 import chat from '../../Assets/Projects/chat.jpg'
 import News from '../../Assets/Projects/newsmonkey.jpg'
 import WordKhoj from '../../Assets/Projects/textutils.png'
+import shop from '../../Assets/Projects/welcome.png'
 const ProjectData = [
   {
-    id: "a4",
+    id: "a6",
+    imgPath: shop,
+    title: "Ecommerce Mern stack",
+    description: "Created a personal MERN E-commerce app with a user-friendly interface, intelligent search, advanced filters, and seamless shopping cart. The secure checkout supports multiple payment options. The admin portal allows easy product and category management, offering insights into user activity for a personalized experience. Developed using React.js for the UI, Node.js, and Express.js for robust server-side operations, and a scalable MongoDB database.",
+    ghLink: "https://github.com/Durgesh2008/ecommerceMernstack",
+    demoLink: "https://ecommercemernstack.netlify.app/",
+  },
+  {
+    id: "a5",
     imgPath: chat,
     title: "ChatUp",
     description: "This is a Full Stack Chatting App. Uses Socket.io for real-time communication and stores user details in encrypted format in Mongo DB Database.",
@@ -18,14 +27,14 @@ const ProjectData = [
   },
   
   {
-    id: "a3",
+    id: "a4",
     imgPath: Admin,
     title: "Admin Student Record Portal",
     description: "This project entails creating an administrator portal for efficient student record management and certificate generation. Administrators can login, sign up, and perform essential tasks like adding, deleting, viewing, and updating student data, as well as generating student certificates. This system simplifies administrative processes and enhances student  management.",
     ghLink: "https://github.com/Durgesh2008/AdminOfStudent"
   },
   {
-    id: 'a2',
+    id: 'a3',
     imgPath: Sorting,
     title: "Sorting Visulizer",
     description: "A JavaScript web application for visualizing various sorting algorithms. It was built for use by developers and educators alike.",
@@ -35,7 +44,7 @@ const ProjectData = [
  
   
   {
-    id: 'a5',
+    id: 'a2',
     imgPath: News,
     title: "NewsINDIA",
     description: "This React app utilizes the News API to gather and present real-time news content. Offering an immersive news-reading experience, it provides users with up-to-date information and headlines from various sources, making it a convenient and informative news application.",

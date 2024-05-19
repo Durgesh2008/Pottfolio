@@ -1,4 +1,4 @@
-Durgesh Kumar  
+**Durgesh Kumar**
 MERN Stack Developer | React JS Developer | Front End Developer  
 +91 8957201725 | Noida, Uttar Pradesh, India | Email | Portfolio | LinkedIn | GitHub  
 

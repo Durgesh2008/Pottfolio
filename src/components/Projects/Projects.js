@@ -8,7 +8,16 @@ import chat from '../../Assets/Projects/chat.jpg'
 import News from '../../Assets/Projects/newsmonkey.jpg'
 import WordKhoj from '../../Assets/Projects/textutils.png'
 import shop from '../../Assets/Projects/welcome.png'
+import surge from '../../Assets/Projects/surge.png'
 const ProjectData = [
+  {
+    id: "a7",
+    imgPath: surge,
+    title: "Surge Party(IOS App)",
+    description: "This is an ios app for manage the party.",
+    demoLink: "https://apps.apple.com/us/app/surge-playlist-for-parties/id1643038656/",
+  },
+
   {
     id: "a6",
     imgPath: shop,
@@ -72,7 +81,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "start", paddingBottom: "10px" }}>
 
           {ProjectData && ProjectData.map((ele) => {
             return (

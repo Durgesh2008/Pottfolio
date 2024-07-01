@@ -6,15 +6,14 @@ import Sorting from "../../Assets/Projects/sorting.png";
 import Admin from "../../Assets/Projects/Admin.png";
 import chat from '../../Assets/Projects/chat.jpg'
 import News from '../../Assets/Projects/newsmonkey.jpg'
-import WordKhoj from '../../Assets/Projects/textutils.png'
 import shop from '../../Assets/Projects/welcome.png'
-import surge from '../../Assets/Projects/surge.png'
+import surge from '../../Assets/Projects/surge.jpg'
 const ProjectData = [
   {
     id: "a7",
     imgPath: surge,
     title: "Surge Party(IOS App)",
-    description: "This is an ios app for manage the party.",
+    description: "A mobile app that facilitates the creation of social gatherings and brings the crowd together based on music",
     demoLink: "https://apps.apple.com/us/app/surge-playlist-for-parties/id1643038656/",
   },
 
@@ -60,14 +59,7 @@ const ProjectData = [
     ghLink: "https://github.com/Durgesh2008/NewsMonkey",
 
   },
-  {
-    id: 'a1',
-    imgPath: WordKhoj,
-    title: "WordKhoj & Textutils",
-    description: "WordKhoj & Textutils is a React app designed for language-related tasks. It offers word meaning lookup and text manipulation features, including text reversal, character counting, and word counting. It provides a user-friendly interface and responsive design for an efficient user experience.",
-    ghLink: "https://github.com/Durgesh2008/WordKhoj",
-    demoLink: "https://wordkhoj.netlify.app/"
-  },
+
 
 ]
 function Projects() {

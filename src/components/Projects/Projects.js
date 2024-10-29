@@ -7,23 +7,23 @@ import Admin from "../../Assets/Projects/Admin.png";
 import chat from '../../Assets/Projects/chat.jpg'
 import News from '../../Assets/Projects/newsmonkey.jpg'
 import shop from '../../Assets/Projects/welcome.png'
-import surge from '../../Assets/Projects/surge.jpg'
+import safekaro from '../../Assets/Projects/safekaro.png'
 const ProjectData = [
   {
     id: "a7",
-    imgPath: surge,
-    title: "Surge Party(IOS App)",
-    description: "A mobile app that facilitates the creation of social gatherings and brings the crowd together based on music",
-    demoLink: "https://apps.apple.com/us/app/surge-playlist-for-parties/id1643038656/",
+    imgPath:safekaro ,
+    title: "Safe karo",
+    description: "Developed a comprehensive insurance platform with unique motor policy features, integrating functionalities from Policy Bazaar and Acko. Designed efficient APIs for smooth operations and built a user-friendly frontend interface, streamlining policy creation and booking for multiple user roles",
+    demoLink: "https://admin.safekaro.com/",
   },
 
   {
     id: "a6",
     imgPath: shop,
     title: "Ecommerce Mern stack",
-    description: "Created a personal MERN E-commerce app with a user-friendly interface, intelligent search, advanced filters, and seamless shopping cart. The secure checkout supports multiple payment options. The admin portal allows easy product and category management, offering insights into user activity for a personalized experience. Developed using React.js for the UI, Node.js, and Express.js for robust server-side operations, and a scalable MongoDB database.",
-    ghLink: "https://github.com/Durgesh2008/ecommerceMernstack",
-    demoLink: "https://ecommercemernstack.netlify.app/",
+    description: "Created a personal MERN E-commerce app with a user-friendly interface, intelligent search, advanced filters, and seamless shopping cart. The admin portal allows easy product and category management, offering insights into user activity for a personalized experience. Developed using React.js for the UI, Node.js, and Express.js for robust server-side operations, and a scalable MongoDB database.",
+    ghLink: "https://github.com/Durgesh2008/ServerEcom",
+    demoLink: "https://dk-ecommerce.netlify.app/",
   },
   {
     id: "a5",
